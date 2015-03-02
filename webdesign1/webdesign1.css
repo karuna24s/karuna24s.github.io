@@ -1,0 +1,22 @@
+body {
+	background-color: #cccccc;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 48px;
+	color: blue;
+}
+li {
+	color: green;
+    text-align: right;
+    display: inline-block;
+}
+
+ul {
+	float: right;
+}
+
+ul:after {
+	content: " ";
+	clear:right;
+}
