@@ -1,0 +1,53 @@
+.head {
+	background-color: #CCFFFF;
+}
+nav { 
+	color: blue;
+    text-align: right;
+}
+
+nav li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+h2 {
+	color: green;
+}
+
+.sidebar h3 {
+	color: purple;
+}
+
+.poem h3 {
+	color: purple;
+}
+
+.sidebar p {
+	line-height: 1.4em;
+}
+
+.poem p {
+	font-family: Monotype Corsiva, cursive;
+	line-height: 0.50em;
+}
+
+#hobbies h3 {
+	color: purple;
+}
+
+#hobbies ul {
+	line-height: 1.4em;
+	font-family: Arial, sans-serif;
+	color: blue;
+}
+ 
+.books h3 {
+	color: purple;
+}
+
+.books ol {
+	line-height: 1.4em;
+	font-family: Verdana, sans-serif;
+	color: orange;
+}
