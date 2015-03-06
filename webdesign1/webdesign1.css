@@ -1,6 +1,4 @@
-body {
-	background-color: #cccccc;
-}
+body { background-color: #FFFFE6; }
 h1 {
 	font-family: sans-serif;
 	font-size: 48px;
@@ -12,11 +10,38 @@ li {
     display: inline-block;
 }
 
-ul {
-	float: right;
-}
+ul { float: right; }
 
 ul:after {
 	content: " ";
 	clear:right;
+}
+
+.sidebar h3 { color: purple; }
+
+.quote h3 { 
+	color: purple;
+	
+ }
+
+.sidebar p { line-height: 1.4em; }
+
+.quote {
+	font-family: Monotype Corsiva, cursive;
+	white-space: nowrap;
+	float: left;
+    width: 350px;
+    background-color: orange;
+
+}
+.image { 
+	background-color: blue;
+	float: right; 
+    margin: 60px;
+    display: inline-block;
+    width: 60%;
+
+    }
+.clearfix {
+	clear:both;
 }
