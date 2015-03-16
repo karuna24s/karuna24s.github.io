@@ -31,15 +31,15 @@ ul:after {
 	white-space: nowrap;
 	float: left;
     width: 350px;
-    background-color: orange;
+    background-color: red;
 
 }
 .image { 
-	background-color: blue;
 	float: right; 
     margin: 60px;
     display: inline-block;
     width: 60%;
+    background-color: blue;
 
     }
 .clearfix {
