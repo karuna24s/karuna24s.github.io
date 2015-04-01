@@ -1,53 +1,19 @@
-.head {
-	background-color: #CCFFFF;
+body {
+  background-color: #7BEFBB;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 75px;
+  margin: 50px auto;
+  width: 90%;
+  -webkit-font-smoothing: antialiased;
 }
-nav { 
-	color: blue;
-    text-align: right;
+a {
+  color: #0DB76E;
+  text-decoration: none;
 }
+img {
+  color: #0DB76E;
 
-nav li {
-	text-decoration: none;
-	display: inline-block;
-}
-
-h2 {
-	color: green;
-}
-
-.sidebar h3 {
-	color: purple;
-}
-
-.poem h3 {
-	color: purple;
-}
-
-.sidebar p {
-	line-height: 1.4em;
-}
-
-.poem p {
-	font-family: Monotype Corsiva, cursive;
-	line-height: 0.50em;
-}
-
-#hobbies h3 {
-	color: purple;
-}
-
-#hobbies ul {
-	line-height: 1.4em;
-	font-family: Arial, sans-serif;
-	color: blue;
-}
- 
-.books h3 {
-	color: purple;
-}
-
-.books ol {
-	line-height: 1.4em;
-	font-family: Verdana, sans-serif;
-	color: orange;
 }
