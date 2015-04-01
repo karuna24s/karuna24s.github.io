@@ -31,15 +31,15 @@ ul:after {
 	white-space: nowrap;
 	float: left;
     width: 350px;
-
 }
-.image { 
-	float: left;
-    margin: 45px;
-    display: inline-block;
-    width: 50%;
 
+.image { 
+	float: right; 
+    margin: 60px;
+    display: inline-block;
+    width: 60%;
     }
+
 .clearfix {
 	clear:both;
 }
