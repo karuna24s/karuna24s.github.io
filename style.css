@@ -21,7 +21,6 @@ h3 {
 }
 
 h6 {
-  background-color: orange;
   text-align: left;
   font-size: 32px
 }
@@ -32,7 +31,7 @@ p {
   font-size: 14px;
 }
 
-img {
+.welcome img {
   display: block;
   margin-left: auto;
   margin-right: auto;
