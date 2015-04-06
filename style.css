@@ -16,23 +16,31 @@ a {
 
 h3 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 50px;
 }
 
 h6 {
   text-align: left;
-  font-size: 32px
+  font-size: 32px;
+  margin-top: -10px;
 }
 
 p { 
-  margin-top: -45px;
+  margin-top: -75px;
   text-align: left;
   font-size: 14px;
 }
 
-.welcome img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.thumbnails img {
+  float: left;
+  margin:  20px 0px 15px 15px;
+}
+
+.thumbnails p {
+  margin: -73px 0px -45px 15px;
+}
+.na2ure {
+  float: right;
+  margin: 50px 0px 50px 50px;
 }
