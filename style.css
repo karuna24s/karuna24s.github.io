@@ -2,10 +2,10 @@ body {
   background-color: #7BEFBB;
   color: #ffffff;
   font-family: Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 52px;
   font-weight: bold;
   line-height: 75px;
-  margin: 50px auto;
+  margin: 5px auto;
   width: 90%;
   -webkit-font-smoothing: antialiased;
 }
