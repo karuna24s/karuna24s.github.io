@@ -1,8 +1,8 @@
-body { background-color: #FFFFE6; }
+body { background-color: #FFAF35; }
 h1 {
 	font-family: sans-serif;
 	font-size: 48px;
-	color: blue;
+	color: #6D0DFF;
 }
 li {
 	color: green;
@@ -17,23 +17,23 @@ ul:after {
 	clear:right;
 }
 
-.sidebar h3 { color: purple; }
+/*.sidebar h3 { color: #E84F0C; }*/
 
-.quote h3 { 
-	color: purple;
+.quote1 h3 { 
+	color: #E84F0C;
 	
  }
 
-.sidebar p { line-height: 1.4em; }
+/*.sidebar p { line-height: 1.4em; }*/
 
-.quote {
+.quote1 {
 	font-family: Monotype Corsiva, cursive;
 	white-space: nowrap;
 	float: left;
     width: 350px;
 }
 
-.image { 
+.image1 { 
 	float: right; 
     margin: 60px;
     display: inline-block;
