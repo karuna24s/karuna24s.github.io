@@ -10,14 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 34px;
-    line-height: 40px;
-    margin: 20px auto;
-  }
-}
-
 a {
   color: #0DB76E;
   text-decoration: none;
@@ -25,6 +17,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 20px auto;
+  }
 }
 
 h3 {
