@@ -35,7 +35,7 @@ h3 {
 
 h6 {
   text-align: left;
-  font-size: 32px;
+  font-size: 24px;
   margin-top: -10px;
 }
 
@@ -46,14 +46,29 @@ p {
   line-height: 75px;
 }
 
-.thumbnails img {
-  float: left;
-  margin:  20px 0px 15px 15px;
+.main {
+  position: relative;
+  margin-top: -200px;
 }
 
-.thumbnails p {
-  margin: -73px 0px -45px 15px;
+.project-desc {
+  white-space: nowrap;
+  padding: 0px;
+  float: right;
+    margin: 40px 70px 40px 40px;
+    width: 60%;
 }
+
+.project-image { 
+  white-space: nowrap;
+  padding: 0px;
+  float: left; 
+    margin: 5px 25px 5px 5px;
+    display: inline-block;
+    }
+
+
+
 .na2ure {
   float: right;
   margin: 50px 0px 50px 50px;
