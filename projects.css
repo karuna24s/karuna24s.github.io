@@ -6,7 +6,7 @@ body {
   font-weight: bold;
   line-height: 75px;
   margin: 50px auto;
-  width: 90%;
+  width: 95%;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -35,40 +35,25 @@ h3 {
 
 h6 {
   text-align: left;
-  font-size: 24px;
+  font-size: 32px;
   margin-top: -10px;
 }
 
 p { 
   margin-top: -75px;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 75px;
 }
 
-.main {
-  position: relative;
-  margin-top: -200px;
+.thumbnails img {
+  float: left;
+  margin:  20px 0px 15px 15px;
 }
 
-.project-desc {
-  white-space: nowrap;
-  padding: 0px;
-  float: right;
-    margin: 40px 70px 40px 40px;
-    width: 60%;
+.thumbnails p {
+  margin: -73px 0px -45px 15px;
 }
-
-.project-image { 
-  white-space: nowrap;
-  padding: 0px;
-  float: left; 
-    margin: 5px 25px 5px 5px;
-    display: inline-block;
-    }
-
-
-
 .na2ure {
   float: right;
   margin: 50px 0px 50px 50px;
