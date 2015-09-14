@@ -1,0 +1,60 @@
+body {
+  background-color: #7BEFBB;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 75px;
+  margin: 50px auto;
+  width: 90%;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #0DB76E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 20px auto;
+  }
+}
+
+h3 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+h6 {
+  text-align: left;
+  font-size: 32px;
+  margin-top: -10px;
+}
+
+p { 
+  margin-top: -20px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.thumbnails img {
+  float: left;
+  margin:  20px 0px 15px 15px;
+}
+
+.thumbnails p {
+  margin: -73px 0px -45px 15px;
+}
+.na2ure {
+  float: right;
+  margin: 50px 0px 50px 50px;
+}
