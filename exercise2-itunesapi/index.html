@@ -1,0 +1,102 @@
+<!-- DOCTYPE HTML -->
+<html>
+   <head>
+      <title>iTunes api</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <div class="itunes">itunes api</div>
+        <br />
+        <div id="content"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+        <script src="https://fb.me/react-with-addons-0.13.3.js"></script>
+        <script src="http://fb.me/JSXTransformer-0.12.1.js"></script>
+        <script type="text/jsx">
+        // modify the code below
+        'use strict';
+
+        var ResultItem = React.createClass({
+            render: function(){
+                return (
+                    <li className="list-group-item" key={this.props.index}>{this.props.result}</li>
+                    );
+            }
+        });
+
+        var ResultButton = React.createClass({
+            render: function(){
+                var items = this.props.searchResult.map(function(app,index){
+                    return <ResultItem key={index} result={app.trackName} />
+                });
+
+                return (
+                    <ul className="list-group">
+                        {items}
+                    </ul>
+                    );
+            }
+        });
+
+        var SearchBar = React.createClass({
+            render: function(){
+                return (
+                    <div>
+                      <input type="text" ref="Query" />
+                      <select ref="Category">
+                          <option value="software">Apps</option>
+                          <option value="movie">Films</option>
+                          <option value="song">Music</option>
+                          // <option value="musicArtist">Artist</option>
+                          // <option value="album">Album</option>
+                      </select>
+                      <input type="submit" onClick={this.createAjax} />
+                    </div>
+                    );
+            },
+            createAjax: function() {
+                var query      = React.findDOMNode(this.refs.Query).value;
+                var category   = React.findDOMNode(this.refs.Category).value;
+                var URL = 'https://itunes.apple.com/search?term=' + query + '&country=us&entity=' + category;
+                this.props.search(URL)
+            }
+        });
+
+        var App = React.createClass({
+            getInitialState: function(){
+                return{
+                    searchResult: []
+                }
+            },
+            render: function(){
+                return (
+                   <div>
+                   <SearchBar 
+                       search={this.search}/>
+                   <ResultButton 
+                       searchResult={this.state.searchResult} />
+                   </div>
+                    
+                );
+            },
+            showApps: function(response){
+                this.setState({
+                    searchResult: response.results
+                })
+            },
+            search: function(URL){
+                $.ajax({
+                    type: "GET",
+                    dataType: 'jsonp',
+                    url: URL,
+                    success: function(response){
+                        this.showApps(response);
+                    }.bind(this)
+                });
+            }
+        });
+        
+
+        React.render(<App />,  document.getElementById("content"));
+        </script>
+</html>
