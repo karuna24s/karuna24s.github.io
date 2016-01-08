@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-framework="angularjs">
+	<head>
+		<meta charset="utf-8">
+		<title>AngularJS • Quotes</title>
+		<link rel="stylesheet" href="node_modules/quoteslist-common/base.css">
+		<link rel="stylesheet" href="node_modules/quoteslist-app-css/index.css">
+		<style>[ng-cloak] { display: none; }</style>
+	</head>
+	<body ng-app="quotes">
+		<ng-view />
+
+		<script type="text/ng-template" id="quoteslist-index.html">
+			<section id="quotesapp">
+				<header id="header">
+					<h1>favorite quotes</h1>
+					<form id="quote-form" ng-submit="addQuote()">
+						<input id="new-quote" placeholder="What are your favorite quotes?" ng-model="newQuote" ng-disabled="saving" autofocus>
+					</form>
+				</header>
+				<section id="main" ng-show="quotes.length" ng-cloak>
+					<input id="toggle-all" type="checkbox" ng-model="allChecked" ng-click="markAll(allChecked)">
+					<label for="toggle-all">Mark all as complete</label>
+					<ul id="quotes-list">
+						<li ng-repeat="quote in quotes | filter:statusFilter track by $index" ng-class="{completed: quote.completed, editing: quote == editedQuote}">
+							<div class="view">
+								<input class="toggle" type="checkbox" ng-model="quote.completed" ng-change="toggleCompleted(quote)">
+								<label ng-dblclick="editedQuote(quote)">{{quote.title}}</label>
+								<button class="destroy" ng-click="removeQuote(quote)"></button>
+							</div>
+							<form ng-submit="saveEdits(quote, 'submit')">
+								<input class="edit" ng-trim="false" ng-model="quote.title" quote-escape="revertEdits(quote)" ng-blur="saveEdits(quote, 'blur')" quote-focus="quote == editedQuote">
+							</form>
+						</li>
+					</ul>
+				</section>
+				<footer id="footer" ng-show="quotes.length" ng-cloak>
+					<span id="quote-count"><strong>{{remainingCount}}</strong>
+						<ng-pluralize count="remainingCount" when="{ one: 'item left', other: 'items left' }"></ng-pluralize>
+					</span>
+					<ul id="filters">
+						<li>
+							<a ng-class="{selected: status == ''} " href="#/">All</a>
+						</li>
+						<li>
+							<a ng-class="{selected: status == 'active'}" href="#/active">Active</a>
+						</li>
+						<li>
+							<a ng-class="{selected: status == 'completed'}" href="#/completed">Completed</a>
+						</li>
+					</ul>
+					<button id="clear-completed" ng-click="clearCompletedQuotes()" ng-show="completedCount">Clear completed</button>
+				</footer>
+			</section>
+			<footer id="info">
+				<p>Double-click to edit a quote</p>
+			</footer>
+		</script>
+		<script src="node_modules/quoteslist-common/base.js"></script>
+		<script src="node_modules/angular/angular.js"></script>
+		<script src="node_modules/angular-route/angular-route.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers/quoteCtrl.js"></script>
+		<script src="js/services/quoteStorage.js"></script>
+		<script src="js/directives/quoteFocus.js"></script>
+		<script src="js/directives/quoteEscape.js"></script>
+	</body>
+</html>
