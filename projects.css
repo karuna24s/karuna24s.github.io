@@ -46,11 +46,52 @@ p {
   line-height: 75px;
 }
 
-.thumbnails img {
+.matchpad img {
   float: left;
   margin:  20px 0px 15px 15px;
 }
 
-.thumbnails p {
-  margin: -73px 0px -45px 15px;
+.matchpad p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 0px -45px 15px;
 }
+
+.quotes img {
+  float: left;
+  margin:  20px 0px 15px 15px;
+}
+
+.quotes p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 0px -45px 15px;
+}
+
+.nywritingclub img {
+  float: left;
+  margin:  20px 0px 15px 15px;
+}
+
+.nywritingclub p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 0px -45px 15px;
+}
+
+.itunes img {
+  float: left;
+  margin:  20px 0px 15px 15px;
+}
+
+.itunes p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 40px -45px 15px;
+}
+
+
