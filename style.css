@@ -2,9 +2,9 @@ body {
   background-color: #7BEFBB;
   color: #ffffff;
   font-family: Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
-  line-height: 75px;
+  line-height: 65px;
   margin: 50px auto;
   width: 90%;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +39,7 @@ h6 {
   margin-top: -10px;
 }
 
-p { 
+p {
   margin-top: -75px;
   text-align: left;
   font-size: 16px;
