@@ -39,59 +39,112 @@ h6 {
   margin-top: -10px;
 }
 
-p { 
+p {
   margin-top: -75px;
   text-align: left;
   font-size: 16px;
   line-height: 75px;
 }
 
-.matchpad img {
-  float: left;
-  margin:  20px 0px 15px 15px;
+.thumbnails {
+  margin-top: 250px;
+  margin-left: 100px;
 }
 
-.matchpad p {
+.bollywood img {
+  float: left;
+  margin:  20px 0px 15px 60px;
+}
+
+.bollywood p {
   position: relative;
   top: 10px;
   float: left;
-  margin: -50px 0px -45px 15px;
+  margin: -50px 0px -45px 60px;
 }
 
+.moviereviews img {
+  float: left;
+  margin:  20px 0px 15px 60px;
+}
+
+.moviereviews p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 0px -45px 60px;
+}
+
+.foodtravels img {
+  float: left;
+  margin:  20px 0px 15px 60px;
+}
+
+.foodtravels p {
+  position: relative;
+  top: 10px;
+  float: left;
+  margin: -50px 0px -45px 60px;
+}
 .quotes img {
   float: left;
-  margin:  20px 0px 15px 15px;
+  margin:  20px 0px 15px 60px;
 }
 
 .quotes p {
   position: relative;
   top: 10px;
   float: left;
-  margin: -50px 0px -45px 15px;
+  margin: -50px 0px -45px 60px;
+}
+
+.matchpad {
+  /*display:inline-block;*/
+}
+
+.matchpad img {
+  float: left;
+  margin:  20px 0px 15px 60px;
+}
+
+.matchpad p {
+  position: relative;
+  top: 10px;
+  float: left;
+  width: 50%;
+  margin: -50px 0px -45px 60px;
+}
+
+.nywritingclub {
+  margin-bottom: 100px;
 }
 
 .nywritingclub img {
   float: left;
-  margin:  20px 0px 15px 15px;
+  margin:  20px 0px 15px 60px;
 }
 
 .nywritingclub p {
   position: relative;
   top: 10px;
   float: left;
-  margin: -50px 0px -45px 15px;
+  margin: -50px 0px -45px 60px;
+}
+
+.itunes {
+  margin-top: -200px;
+
 }
 
 .itunes img {
   float: left;
-  margin:  20px 0px 15px 15px;
+  margin:  20px 0px 15px 60px;
 }
 
 .itunes p {
   position: relative;
   top: 10px;
   float: left;
-  margin: -50px 40px -45px 15px;
+  width: 50%;
+  margin: -50px 0px -45px 60px;
 }
-
-
