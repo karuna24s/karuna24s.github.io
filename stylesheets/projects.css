@@ -30,13 +30,8 @@ a:hover {
 h3 {
   text-align: center;
   margin-top: 10px;
+  margin-left: -10px;
   font-size: 50px;
-}
-
-h6 {
-  text-align: left;
-  font-size: 32px;
-  margin-top: -10px;
 }
 
 p {
@@ -48,7 +43,7 @@ p {
 
 .thumbnails {
   margin-top: 250px;
-  margin-left: 100px;
+  margin-left: 30px;
 }
 
 .bollywood img {
