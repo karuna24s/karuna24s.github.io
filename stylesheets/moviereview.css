@@ -46,11 +46,8 @@ p {
   line-height: 30px;
 }
 
-.thumbnails img {
-  float: left;
-  margin:  20px 0px 15px 15px;
-}
-
-.thumbnails p {
-  margin: -73px 0px -45px 15px;
+.app a img {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
