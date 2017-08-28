@@ -39,22 +39,15 @@ h6 {
   margin-top: -10px;
 }
 
-p { 
+p {
   margin-top: -20px;
   text-align: left;
   font-size: 16px;
   line-height: 30px;
 }
 
-.thumbnails img {
-  float: left;
-  margin:  20px 0px 15px 15px;
-}
-
-.thumbnails p {
-  margin: -73px 0px -45px 15px;
-}
-.na2ure {
-  float: right;
-  margin: 50px 0px 50px 50px;
+.wireframe img {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
