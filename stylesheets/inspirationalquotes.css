@@ -1,12 +1,12 @@
 body {
-  background-color: #eff3f4;
-  font-family: Helvetica, sans-serif;
+ background-color: #eff3f4;
+ font-family: Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 48px;
-  color: #017ab2;
-  text-align: center;
+	font-size: 48px;
+ color: #017ab2;
+ text-align: center;
 }
 
 .zindagi-na-milegi-dobara {
@@ -132,5 +132,39 @@ hr {
  /* margin-top: 5px; */
  margin-left: 30px;
  width: 110%;
+
+}
+
+.om-shanti-om {
+ display: flex;
+ flex-wrap: wrap;
+ flxex-direction: row;
+ max-width: 45em;
+ margin: 1em auto;
+}
+
+.om-shanti-om h2 {
+ margin-left: 20px;
+ text-align: center;
+}
+
+.om-shanti-om h2 span a {
+ color: #d8540d;
+ text-decoration: none;
+}
+
+.om-shanti-om h2 span a:hover {
+ color: #f7a16f;
+ text-decoration: underline;
+}
+
+.om-shanti-om .image {
+ width: 30%;
+}
+
+.om-shanti-om .image img {
+ margin-top: 18px;
+ margin-left: 10px;
+ width: 160%;
 
 }
