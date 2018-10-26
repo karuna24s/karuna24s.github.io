@@ -48,8 +48,8 @@ hr {
 }
 
 .zindagi-na-milegi-dobara .video {
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .zindagi-na-milegi-dobara2 {
@@ -71,8 +71,8 @@ hr {
 }
 
 .zindagi-na-milegi-dobara2 .video {
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .dear-zindagi {
@@ -101,14 +101,14 @@ hr {
 
 .dear-zindagi .image img {
   margin-top: 30px;
-
+  /* margin-left: 5px; */
   margin-right: 100px;
   width: 110%;
 }
 
 .dear-zindagi .video {
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 60px;
+  margin-left: 45px;
 }
 
 .rang-de-basanti {
@@ -178,6 +178,6 @@ hr {
 }
 
 .om-shanti-om .video {
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
