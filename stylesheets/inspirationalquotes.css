@@ -51,7 +51,7 @@ hr {
   margin-left: 20px;
 }
 
-.zindagi-na-milegi-dobara2 {
+.znmd {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -59,17 +59,17 @@ hr {
   margin: 1em auto;
 }
 
-.zindagi-na-milegi-dobara2 .image {
+.znmd .image {
   margin-top: 30px;
   margin-left: 20px;
   width: 28%;
 }
 
-.zindagi-na-milegi-dobara2 .image img{
+.znmd .image img{
   width: 160%;
 }
 
-.zindagi-na-milegi-dobara2 .video {
+.znmd .video {
   margin-top: 30px;
   margin-left: 20px;
 }
