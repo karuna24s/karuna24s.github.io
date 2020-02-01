@@ -1,10 +1,11 @@
 ## Karuna24s.github.io
 
 Welcome to my Projects Directory! This directory includes:
- * my Portfolio 
+ * my Portfolio
  * Matchpad HTML Templates
- * New York Writing Club website 
+ * New York Writing Club website
  * Quoteslist app
- * Itunes Api app. 
- 
-Hope you enjoy checking it out. 
+ * Itunes Api app.
+ * Inspirational Quotes Website
+
+Hope you enjoy checking it out.
