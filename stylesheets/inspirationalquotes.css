@@ -94,12 +94,11 @@ hr {
 
 
 .dear-zindagi .image {
-  width: 48%
+  width: 50%
 }
 
 .dear-zindagi .image img {
-  margin-top: 30px;
-  margin-right: 100px;
+  margin-left: -20px;
   width: 110%;
 }
 
