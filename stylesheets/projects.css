@@ -106,6 +106,19 @@ p {
   margin: -40px 0px -45px 60px;
 }
 
+.inspirationalquotes img {
+  float: left;
+  margin:  30px 0px 15px 60px;
+}
+
+.inspirationalquotes p {
+  position: relative;
+  top: 10px;
+  float: left;
+  width: 50%;
+  margin: -40px 0px -45px 60px;
+}
+
 .nywritingclub {
   margin-bottom: 100px;
 }
