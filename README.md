@@ -1,6 +1,6 @@
 ## Karuna24s.github.io
 
-Welcome to my Projects Directory! This directory includes:
+Welcome to my Projects Directory. This directory includes:
  * My Portfolio
  * Matchpad HTML Templates
  * New York Writing Club Wireframe
